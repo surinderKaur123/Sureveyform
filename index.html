@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers Survey Form</title>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="heading">
+    <h1 id=title>Student Interests Survey</h1>
+   </div>
+
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+
+            <label id="name-label"><b>Enter your name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+
+            <label id="program-label"><b>Enter your Program:</b></label>
+            <input id="program" type="text" name="program" class="form" required placeholder="computer science"><br>
+            <br>
+         </div>
+
+
+         <div id="about-div"><br><br>
+
+            <label id="about-label">Tell us a little about yourself:</label><br>
+            <textarea style= height:120px;" class="form" placeholder=""></textarea><br>
+           
+          </div>
+
+         <div id = "exercise-div"> <br><br>
+
+            <label for="exercise">Do you exercise at home?</label><br>
+            <input type="radio" id="exercise_yes" name="exercise" value="Yes" required>
+            <label for="exercise_yes">Yes</label>
+            <input type="radio" id="exercise_no" name="exercise" value="No" required>
+            <label for="exercise_no">No</label><br>
+
+         </div>
+
+
+
+
+         <div id ="books-div"> <br><br>
+
+
+            <label for="reading">How do you like to read about your favorite topics?</label><br>
+            <input type="checkbox" id="books" name="reading" value="Books">
+            <label for="books">Books</label><br>
+            <input type="checkbox" id="online" name="reading" value="Online resources">
+            <label for="online">Online resources</label><br>
+            <input type="checkbox" id="apps" name="reading" value="Phone apps">
+           <label for="apps">Phone apps</label><br>
+            <input type="checkbox" id="magazines" name="reading" value="Magazines">
+            <label for="magazines">Magazines</label><br>
+
+        </div>
+
+         <div id="movies-div"><br>
+            <label id="movies-label"><strong>What genre of movies do you like? </strong></label><br>
+            <select id="dropdown-movies" name="movies" class="form">
+
+               <option value="comedy">Comedy</option>
+               <option value="action">Action</option>
+               <option value="drama">Drama</option>
+               <option value="horror">Horror</option>
+               <option value="sci-fi">Science Fiction</option>
+               <option value="romance">Romance</option>
+               <option value="thriller">Thriller</option>
+               <option value="other">Other</option>
+
+            </select>
+         </div>
+     
+         <div id ="submit-div"><br>
+               <input id="submit" type="submit"  class="form"><br><br>
+         </div>
+        
+        </form>
+    </div>
+
+</body>
+
+</html>
